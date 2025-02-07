@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_crown" android:id="@id/nav_home" android:title="Mix" />
+    <item android:icon="@drawable/ic_call" android:id="@id/nav_call" android:title="Call" />
+    <item android:icon="@drawable/ic_message" android:id="@id/nav_sms" android:title="SMS" />
+    <item android:icon="@drawable/ic_whatsapp" android:id="@id/nav_whatsapp" android:title="WhatsApp" />
+</menu>

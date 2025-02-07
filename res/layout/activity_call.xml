@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="#ffff9800" android:layout_gravity="center_horizontal" android:id="@id/app_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="90.0dip" android:text="NEXTBOMB PRO" />
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ff7638fb" android:layout_gravity="center_horizontal" android:id="@id/prime_sms_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="55.0dip" android:text="PREMIUM CALL BOMBER" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff7638fb" android:layout_gravity="start" android:id="@id/prime_sms_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="ENTER MOBILE NUMBER" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <EditText android:textColor="#ffffffff" android:textColorHint="#ff7638fb" android:id="@id/mobile_number_input" android:background="@drawable/edittext_border" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="50.0dip" android:hint="e.g. 0123456789" android:ems="10" android:maxLength="10" android:layout_weight="1.0" android:inputType="phone" android:importantForAccessibility="yes" />
+            <ImageButton android:id="@id/selectContactButton" android:background="@drawable/square_background" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/contact_small_icon" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="Select contact" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/send_sms_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="ATTACK" android:contentDescription="Send Bomb button" android:importantForAccessibility="yes" android:elevation="4.0dip" android:backgroundTint="#ff6527e4" />
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottom_navigation" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemIconTint="@color/selector_bottom_nav" app:itemTextColor="@color/selector_bottom_nav" app:menu="@menu/bottom_nav_menu" />
+</LinearLayout>
